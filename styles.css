@@ -23,7 +23,7 @@ header {
     font-weight: bold;
 }
 
-nav ul {
+nav ul { 
     list-style: none;
     display: flex;
     gap: 20px;
