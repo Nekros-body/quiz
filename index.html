@@ -9,13 +9,13 @@
 <body>
     <header>
         <div class="logo">
-            <p>Logo</p>
+            <img src="bapple_logo.png" style="width: 100px; height: auto;"/>
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Quizzes</a></li>
-                <li><a href="#">Results</a></li>
+                <li><a href="../quiz">Home</a></li>
+                <li><a href="../quizzes">Quizzes</a></li>
+                <li><a href="../resultaten" target="_blank">Results</a></li>
             </ul>
         </nav>
     </header>
@@ -25,9 +25,15 @@
             <h2>Info</h2>
             <p>*Waarom je de quiz zou willen nemen en waar de quiz goed voor kan zijn idk*</p>
         </section>
-
         <section class="quiz-images">
+            <div class="slides"><img src="iphone.png" alt="iphone" style="width: 100%; height: 100%;"></div>
+            <div class="slides"><img src="macbook.png" alt="digga" style="width: 100%; height: auto; transform: translateY(25%);"></div>
+            <div class="slides"><img src="applewatch.png" alt="wigga" style="width: 100%; height: auto; transform: translateY(25%);"></div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </section>
+        
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

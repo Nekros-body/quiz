@@ -56,11 +56,35 @@ main {
 
 .quiz-images {
     border: 2px solid #000;
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 700px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 20px;
-    background-image: url(images\aaaaa.png);
+    float: right;
+    position: relative;
 }
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 5px; /* Optional rounded edges for buttons */
+    margin-top: 20px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+.slides {
+    display: none;
+}
+
