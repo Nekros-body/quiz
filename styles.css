@@ -6,16 +6,24 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    padding: 20px;
+    background-color: #bcbcbc;
+    padding: 0px;
 }
+
 
 header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #000;
+    border-bottom: 4px solid #000;
     padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #4e60b3; /* Gebruik de juiste kleurcode */
+    color: white; /* Voor de tekst in de header */
+    margin: 0; /* Zorgt ervoor dat er geen ruimte rondom de header is */
+    
 }
 
 .logo p {
@@ -27,6 +35,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    text-align: center;
 }
 
 nav ul li a {
@@ -42,6 +51,21 @@ main {
 
 .info {
     margin-bottom: 20px;
+    margin-left:  20px;
+}
+
+.moreinfo {
+    position: absolute;
+    margin-top: 220px;
+    border:  8px solid #4e60b3;
+    width: 1000px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 15px;
+    margin-left: 20px;
+    outline: 4px solid #000;
+    outline-offset: -4px;
+    font-size: 20px;
 }
 
 .info h2 {
@@ -55,13 +79,18 @@ main {
 }
 
 .quiz-images {
-    border: 2px solid #000;
+    border: 8px solid #4e60b3;
     width: 500px;
     height: 700px;
     display: flex;
     margin-top: 20px;
     float: right;
     position: relative;
+    margin-right: 20px;
+    outline: 4px solid #000;
+    outline-offset: -4px;
+    border-radius: 15px;
+
 }
 
 .prev, .next {
