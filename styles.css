@@ -69,7 +69,7 @@ main {
     border:  8px solid #4e60b3;
     width: 1000px;
     height: 500px;
-    padding: 50px;
+    padding: 35px;
     border-radius: 15px;
     margin-left: 20px;
     outline: 4px solid #000;
@@ -77,16 +77,21 @@ main {
     font-size: 30px;
 }
 
+.moreinfo p {
+    font-size: 20px;
+}
+
 .moreinfo h5{
     font-size: 40px;
 }
-.info h2 {
-    font-size: 24px;
+
+.info h5 {
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
 .info p {
-    font-size: 16px;
+    font-size: 20px;
     color: #333;
 }
 
@@ -125,4 +130,13 @@ main {
 .slides {
     display: none;
 
+}
+
+#steve {
+    border: 8px solid #4e60b3;
+    outline: 4px solid #000;
+    outline-offset: -4px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
