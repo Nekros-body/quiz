@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bcbcbc;
+    padding: 0px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #000;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #4e60b3; /* Gebruik de juiste kleurcode */
+    color: white; /* Voor de tekst in de header */
+    margin: 0; /* Zorgt ervoor dat er geen ruimte rondom de header is */
+    
+}
+
+.logo p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul { 
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #bcbcbc;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 20px;
+
+}
+
+.moreinfo {
+    position: absolute;
+    margin-top: 220px;
+    border:  8px solid #4e60b3;
+    width: 1000px;
+    height: 500px;
+    padding: 35px;
+    border-radius: 15px;
+    margin-left: 20px;
+    outline: 4px solid #000;
+    outline-offset: -4px;
+    font-size: 30px;
+}
+
+
+.border {
+
+    
+
+    border: 8px solid #000; 
+
+
+
+
+}
